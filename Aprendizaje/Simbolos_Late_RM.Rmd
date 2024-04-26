@@ -1,0 +1,17 @@
+---
+title: "Simbolos Late y RM"
+author: "Yorvi Reyes"
+date: "2024-04-26"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Simbolos de LATE
+
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
