@@ -9,9 +9,133 @@ output: pdf_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Simbolos de LATE
+Simbolos matematicos y otros usando LATE    
 
-First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
+| Significado               | Código                               | Resultado                |
+| ------------------------- | ------------------------------------ | ------------------------ |
+| Suma                      | "+"                                  | +                        |
+| Resta                     | "-"                                  | -                        |
+| Producto                  | `$\cdot$`                            | $\cdot$                  |
+| Producto                  | `$\times$`                           | $\times$                 |
+| División                  | `$\div$`                             | $\div$                   |
+| Potencia                  | `$a^{x}$`                            | $a^{x}$                  |
+| Fracción                  | `\frac{a}{b}`                        | $\frac{a}{b}$            |
+| Más menos                 | `\pm`                                | $\pm$                    |
+| Raíz n-ésima              | `\sqrt[n]{x}`                        | $\sqrt[n]{x}$            |
+| Unión                     | `\cup`                               | $\cup$                   |
+| Intersección              | `\cap`                               | $\cap$                   |
+| OR lógico                 | `\vee`                               | $\vee$                   |
+| AND lógico                | `\wedge`                             | $\wedge$                 |
+| Igual                     | `=`                                  | $=$                      |
+| Aproximado                | `\approx`                            | $\approx$                |
+| No igual                  | `\ne`                                | $\ne$                    |
+| Mayor que                 | `>`                                  | $>$                      |
+| Menor que                 | `<`                                  | $<$                      |
+| Mayor o igual que         | `\ge`                                | $\ge$                    |
+| Menor o igual que         | `\le`                                | $\le$                    |
+| Sumatorio                 | `\sum_{i=0}^{n}`                     | $\sum_{i=0}^{n}$         |
+| Productorio               | `\prod_{i=0}^{n}`                    | $\prod_{i=0}^{n}$        |
+| Integral                  | `\int_{a}^{b}`                       | $\int_{a}^{b}$           |
+| Unión Grande              | `\bigcup`                            | $\bigcup$                |
+| Intersección Grande       | `\bigcap`                            | $\bigcap$                |
+| OR lógico Grande          | `\bigvee`                            | $\bigvee$                |
+| AND lógico Grande         | `\bigwedge`                          | $\bigwedge$              |
+| Paréntesis                | `()`                                 | $()$                     |
+| Corchetes                 | `[]`                                 | $[]$                     |
+| Llaves                    | `\{\ \}`                             | $\{\ \}$                 |
+| Diamantes                 | `\langle \rangle`                    | $\langle \rangle$        |
+| Parte entera por defecto  | `\lfloor \rfloor`                    | $\lfloor \rfloor$        |
+| Parte entera por exceso   | `\lceil \rceil`                      | $\lceil \rceil$          |
+| Espacio en blanco         | `hola\ caracola`                     | $hola\ caracola$         |
+| Alpha                     | `\alpha`                             | $\alpha$                 |
+| Beta                      | `\beta`                              | $\beta$                  |
+| Gamma                     | `\gamma \Gamma`                      | $\gamma \ \Gamma$        |
+| Gorrito                   | `\hat {x}`                           | $\hat {x}$               |
+| Barra                     | `\bar{x}`                            | $\bar{x}$                |
+| 1 Punto                   | `\dot{x}`                            | $\dot{x}$                |    
+| 2 Punto                   | `\ddot{x}`                           | $\ddot{x}$               |    
+| 3 Punto                   | `\dddot{x}`                          | $\dddot{x}$              |
+| Virgulilla                | `\tilde{x}`                          | $\tilde{x}$              |
+| Vector                    | `\vec{x}  `                          | $\vec{x}$                | 
+| Gorrito                   | `\widehat{xyz}`                      | $\widehat{xyz}$          |
+| Barra                     | `\overline{xyz}`                     | $\overline{xyz}$         |
+| Subrraalldo               | `\underline{xyz}`                    | $\underline{xyz}$        |
+| Llaver superior           | `\overbrace{xyz}`                    | $\overbrace{xyz}$        |
+| Virgulilla                | `\tilde{x}`                          | $\tilde{x}$              |
+| Llaver inferior           | `\underbrace{xyz}`                   | $\underbrace{xyz}$       |
+| Vector                    | `\overrightarrow{x}  `               | $\overrightarrow{xyz}$   | 
+| Simple                    | `\leftarrow \rightarrow`             | $\leftarrow\ \rightarrow$ |
+| Doble                     | `\Leftarrow \Rightarrow`             | $\Leftarrow\ \Rightarrow$ |
+| Simple larga              | `\longleftarrow \longrightarrow`     | $\longleftarrow\ \longrightarrow$ |
+| Doble larga               | `\Longleftarrow \Longrightarrow`     | $\Longleftarrow\ \Longrightarrow$ |
+| Doble sentido simple      | `\leftrightarrow`                    | $\leftrightarrow$ |
+| Doble sentido doble       | `\Leftrightarrow`                    | $\Leftrightarrow$ |
+| Doble sentido larga simple| `\longleftrightarrow`                | $\longleftrightarrow$ |
+| Doble sentido larga doble | `\Longeleftrightarrow`               | $\Longleftrightarrow$ |
+| Mapea                     | `\mapsto`                            | $\mapsto$ |
+| Arriba                    | `\uparrow`                           | $\uparrow$ |
+| Abajo                     | `\downarrow`                         | $\downarrow$ |
+| Seno                      | `\sin(x)`                            | $\sin(x)$ |
+| Coseno                    | `\cos(x)`                            | $\cos(x)$ |
+| Tangente                  | `\tan(x)`                            | $\tan(x)$ |
+| Arcoseno                  | `\arcsin(x)`                         | $\arcsin(x)$ |
+| Arcocoseno                | `\arccos(x)`                         | $\arccos(x)$ |
+| Arcotangente              | `\arctan(x)`                         | $\arctan(x)$ |
+| Exponencial               | `\exp(x)`                            | $\exp(x)$ |
+| Logaritmo                 | `\log(x)`                            | $\log(x)$ |
+|
+
+Si quiero adaptar una formula al tamaño del texto, puedo usar el codigo 
+`$\frac{a}{b}$`, que resulta en: $\frac{a}{b}$, pero si quiero que salga en 
+tamaño real uso `$\dfrac{a}{b}$`, que resulta en: $\dfrac{a}{b}$
+
+Por otro lado, se pueden usar delimitadores para que estos se adapten a la
+altura de la expresión usando, `\left` y `\right`. Un ejemplo de esto es.
+`$(\dfrac{a}{b})$` y `$\left(\dfrac{a}{b}\right)$`, esto da como resultado,
+$(\dfrac{a}{b})$ y $\left(\dfrac{a}{b}\right)$ respectivamente.
+
+# Matrices sin parentesis
+$$\begin{matrix} a{11} & a{12} & {a13} \\ {a21} & {a22} & {a23} \end{matrix}$$
+# Matrices con parentesis
+
+$$\begin{pmatrix} a{11} & a{12} & {a13} \\ {a21} & {a22} & {a23} \end{pmatrix}$$
+La diferencia radica en el uso de `{matrix}` (sin parentesis) y el uso de `{pmatrix}`
+(con parentesis).
+
+# Matrices (Determinante)
+
+`{vmatrix}`
+
+$$\begin{vmatrix} a{11} & a{12} & {a13} \\ {a21} & {a22} & {a23} \end{vmatrix}$$
+# Matrices con corchete
+
+`{bmatrix}`
+
+$$\begin{bmatrix} a{11} & a{12} & {a13} \\ {a21} & {a22} & {a23} \end{bmatrix}$$
+# Matrices con llaves
+
+`{Bmatrix}`
+
+$$\begin{Bmatrix} a{11} & a{12} & {a13} \\ {a21} & {a22} & {a23} \end{Bmatrix}$$
+# Matrices con doble barra
+
+`{Vmatrix}`
+
+$$\begin{Vmatrix} a{11} & a{12} & {a13} \\ {a21} & {a22} & {a23} \end{Vmatrix}$$
+# Sistema de ecuaciones
+
+$$\left.\begin{array}{ll} ax+by=c\\ ex-fy=g \end{array}\right\}$$
+
+$$|x|=\left\{\begin{array}{ll} -x & \text{si }x\le 0\\ x & \text{si }x \ge 0\end{array}\right.$$ 
+
+
+
+
+
+
+
+
+
+
+
+
